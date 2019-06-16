@@ -3,8 +3,8 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Xin Xie
@@ -13,7 +13,7 @@ sidebar:
     # Sidebar links
     email: xiexin@shanghaitech.edu.cn
     phone: (086) 13601649267
-    website: https://xiexin312.github.io/online-cv #do not add http://
+    website: xiexin312.github.io/online-cv #do not add http://
 
     interests:
       - item: piano
