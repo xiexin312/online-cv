@@ -3,9 +3,6 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
-
     # Profile information
     name: Xin Xie
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
@@ -25,154 +22,89 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
-
+      You can download [my CV(pdf)](assets/pdf/cv-XinXie.pdf){:target="_blank"} and [my transcript(pdf)](assets/pdf/transcript_XinXie.pdf){:target="_blank"} here.
+  
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+    - degree: MSc in Communication and Information System
+      university: University of Chinese Academy of Sciences & ShanghaiTech University
+      time: 09/2014 – 07/2017, Shanghai
+      Advisor: Prof. Xiliang Luo
+            
 
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
+    - degree: BSc in Communication Engineering
+      university: Tongji University
+      time: 09/2010 – 07/2014, Shanghai
+      Advisor: Prof. Aihuang Guo
+        
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Baseband Algorithm Engineer
+      time: 07/2017 - Present
+      company: XinYi Information Technology (Start-up), Shanghai
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        1. **NB-IoT SoC chip:** Our product is a Narrow-Band Internet of Things (NB-IoT) SoC chip. I focus on the demodulation
+           and decode of physical layer downlink channels, including algorithm design with MATLAB andimplementation with DSP. Related algorithms include space frequency block code (SFBC) demodulation and
+           tail-biting convolutional code (TBCC) decoding, etc. There are only three engineers and one project leader in
+           this group, where I serve as the first joined engineer and participate in the whole procedure. Besides, I am also
+           familiar with the overall flow of baseband, and the basic function of other baseband blocks, such as cell search,
+           channel estimation, frequency/tracking loop, etc. My work is mainly based on 3GPP protocols such as technical
+           specifications 36.211, 36.212, 36.213, 36.331, and 36.521.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Postgraduate Student
+      time: 09/2014 - 07/2017
+      company: Data-Information Analysis Lab (DIAL), ShanghaiTech University, Shanghai
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        1. **Hierarchical Visible Light Communication System:** Visible light communication (VLC) has attached a lot of
+        interests due to its safety, practicability, and effciency. In a VLC system with multiple light-emitting-diodes
+        (LEDs), two different types of channels named imaging channel and non-imaging channel can be used to transmit
+        data. In this work, basing on the channel characteristics, we propose a novel hierarchical VLC system which
+        supports two different types of receivers simultaneously. Meanwhile, we also demonstrate how to achieve
+        maximum throughput with optimal power allocation. Numerical results are also provided to corroborate our
+        designs. The work has been published in IEEE ICUWB.
+        
+        2. **Antenna Calibration in Massive MIMO:** In the massive MIMO era, there are hundreds of antenna elements at
+        one single base station (BS). It becomes critical to take full advantage of time-division duplexing (TDD) channel
+        reciprocity to learn the downlink (DL) channel state information (CSI) from the uplink (UL) channel measurements
+        at the BS. However, due to different radio frequency branches for transmitting and receiving, antenna
+        calibration at the BS is necessary to effect this reciprocity between the end-to-end DL and UL channels. In massive
+        MIMO, this procedure becomes extremely challenging since all the existing antenna calibration approaches
+        do not scale well with the size of the antenna array. In our work, we rely on the compressive sensing (CS) theory
+        to develop an efficient and robust way to calibrate the massive antenna array at the BS, which only requires
+        CSI feedbacks in the order of log *N* instead of *N* as in those conventional calibration schemes. Extensive simulations
+        demonstrate our approach can maintain the whole large scale antenna system in a “calibrated” state
+        with only a small amount of feedback overhead. The work has been published in IEEE ICUWB. Besides the RF
+        gains mismatch, as the antenna elements are placed close to each other, the mutual coupling effects among the
+        adjacent antennas also become pronounced. Different coupling matrices for transmission and reception also hurt
+        the end-to-end UL/DL channel reciprocity. Aiming to restore the end-to-end channel reci-procity with a small amount
+        of over-the-air (OTA) resources, we propose to estimate the gain mismatches of the RF electronics and
+        the mutual coupling mismatches separately. Specifically, we rely on the pilot exchanges among the BS antennas
+        and the symmetry of the antenna array to recover the transmitting and receiving gains of all the RF components.
+        Unlike prior calibration works, our schemes can recover the off-diagonal elements in the calibration matrix as
+        well. This work has been published in IEEE IWCMC.
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+      - title: |
+          "*Hierarchical visible light communication system*" [(pdf)](assets/pdf/Hierarchical visible light communication system.pdf){:target="_blank"}，**X. Xie**, X. Luo, in Proc. IEEE ICUWB, Nanjing, China, Oct. 2016.
+      - title: |
+          "*Frugal calibration of mutual coupling in large scale antenna array*" [(pdf)](assets/pdf/Frugal calibration of mutual coupling in large scale antenna array.pdf){:target="_blank"}，**X. Xie**, Y. Xu, Q. Ling, X. Wang, and X. Luo, in Proc. IEEE IWCMC, Valencia, Spain, Jun. 2017.
+      - title: |
+          "*Compressive massive MIMO calibration*" [(pdf)](assets/pdf/Compressive massive MIMO calibration.pdf){:target="_blank"}, X. Luo, S. Yao, **X. Xie**, Y. Xu, and X. Wang，in Proc. IEEE ICUWB, Nanjing, China, Oct. 2016.
+        
+  
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Matlab & Simulink
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: C/C++
+        level: 80%
+        
+      - name: LaTex
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name: MS office
+        level: 80%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

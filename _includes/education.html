@@ -33,11 +33,12 @@
       <div class="meta">
 
         <div class="upper-row">
-          <h3 class="degree">{{ graduation.degree }}</h3>
+          <h5 class="degree">{{ graduation.degree }}</h5>
           <div class="time">{{ graduation.time }}</div>
+		  <h5 class="university">{{ graduation.university }}</h5>
+		  <h5 class="Advisor">{{ graduation.Advisor }}</h5>
         </div><!--//upper-row-->
 
-        <div class="university">{{ graduation.university }}</div>
       </div><!--//meta-->
 
       {% if graduation.details %}
